@@ -1,0 +1,8 @@
+spring.cloud.config.name=chen-config
+spring.cloud.config.profile=dev
+#spring.cloud.config.uri=http://localhost:8761/
+spring.cloud.config.label=main
+spring.cloud.config.discovery.enabled=true
+spring.cloud.config.discovery.service-id=eurake-service
+
+eureka.client.service-url.defaultZone=http://localhost:8761/eureka

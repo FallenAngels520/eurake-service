@@ -1,0 +1,13 @@
+server:
+  port: 8762
+
+spring:
+  application:
+    name: eureka-client
+
+# 在eureka-service进行注册
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
